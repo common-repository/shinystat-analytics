@@ -1,0 +1,155 @@
+# Copyright (C) 2020 ShinyStat
+# This file is distributed under the same license as the ShinyStat package.
+msgid ""
+msgstr ""
+"Project-Id-Version: ShinyStat 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/shinystat-"
+"analytics\n"
+"POT-Creation-Date: 2020-10-30 16:05:45+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/class-shinystat-analytics-admin.php:96
+msgid "Settings"
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:112
+msgid "ShinyStat Settings"
+msgstr ""
+
+#. #-#-#-#-#  shinystat-analytics.pot (ShinyStat 1.0.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#. #-#-#-#-#  shinystat-analytics.pot (ShinyStat 1.0.0)  #-#-#-#-#
+#. Author of the plugin/theme
+#: admin/class-shinystat-analytics-admin.php:113
+msgid "ShinyStat"
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:142
+msgid "ShinyStat Account"
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:150
+msgid "Account Identifier"
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:161
+msgid "Account Type"
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:163
+msgid "Advanced Options"
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:163
+msgid "Add parameter"
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:163
+msgid "Name"
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:163
+msgid "Value"
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:174
+msgid "Conversion Name"
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:221
+msgid "Subscribe an account to access ShinyStat services"
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:229
+msgid "Web Analytics"
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:233
+msgid "On-site Marketing Automation"
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:237
+msgid ""
+"https://www.shinystat.com/cgi-bin/shinystatn.cgi?MODE=ADD1&ABBO=0&LANG=1"
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:239
+msgid "Subscribe an account"
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:267
+msgid "Insert the identifier of the ShinyStat account. It appears in the upper left corner when you log into the analytics measurement dashboards."
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:296
+msgid "Free"
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:307
+msgid "Business"
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:324
+msgid "conversions_en.png"
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:338
+msgid ""
+"Statistics about WooCommerce Conversion are available on ShinyStat dashboard "
+"for Business accounts."
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:339
+msgid ""
+"Conversions data are collected by using, as identifier, the name filled in "
+"this field."
+msgstr ""
+
+#: admin/class-shinystat-analytics-admin.php:340
+msgid ""
+"It is required that the conversion name is active in the list shown on the "
+"ShinyStat dashboard."
+msgstr ""
+
+#: admin/partials/shinystat-analytics-admin-display.php:26
+msgid "Settings successfully updated."
+msgstr ""
+
+#: admin/partials/shinystat-analytics-admin-display.php:28
+msgid "Go to the report page"
+msgstr ""
+
+#: admin/partials/shinystat-analytics-admin-display.php:39
+msgid "Free accounts require to insert the ShinyStat Analytics widget."
+msgstr ""
+
+#: admin/partials/shinystat-analytics-admin-display.php:49
+msgid "Business accounts can insert the ShinyStat Analytics widget."
+msgstr ""
+
+#: admin/partials/shinystat-analytics-admin-display.php:41
+msgid "Go to the widget page"
+msgstr ""
+
+#: includes/class-shinystat-analytics-widget.php:64
+msgid "Insert the ShinyStat visitors counter icon"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/shinystat-analytics/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Activate the plugin and start to use ShinyStat Web Analytics and On-site "
+"Marketing Automation tools."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.shinystat.com"
+msgstr ""

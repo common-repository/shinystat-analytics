@@ -1,0 +1,187 @@
+/**
+ * CSS for your admin-specific functionality in setting page 
+ */
+#shinystat-analytics-form .help-tip{
+    display: inline-block;
+    top: 18px;
+    right: 18px;
+    text-align: center;
+    background-color: #1e8cbe;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 10px;
+}
+
+#shinystat-analytics-form  th>label{
+    padding-top: 12px;
+}
+
+#shinystat-analytics-form .help-tip:before{
+    content:'?';
+    font-weight: bold;
+    color:#fff;
+}
+
+#shinystat-analytics-form .help-tip:hover p{
+    display:block;
+    position: absolute;
+    transform-origin: 100% 0%;
+
+    -webkit-animation: shinystat-analytics-fadeIn 0.3s ease-in-out;
+    animation: shinystat-analytics-fadeIn 0.3s ease-in-out;
+
+}
+
+#shinystat-analytics-form .help-tip p{    /* The tooltip */
+    display: none;
+    text-align: left;
+    background-color: #2c2f30;
+    padding: 10px;
+    width: 250px;
+    margin-left: -120px;
+    position: fixed;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    color: #FFF;
+    font-size: 13px;
+    line-height: 1.4;
+    z-index: 100;
+    text-align: center;
+}
+
+#shinystat-analytics-form .help-tip p:before{ /* The pointer of the tooltip */
+    position: absolute;
+    content: '';
+    width:0;
+    height: 0;
+    border:6px solid transparent;
+    border-bottom-color:#1E2021;
+    left:124px;
+    top:-10px;
+}
+
+#shinystat-analytics-form .help-tip p:after{ /* Prevents the tooltip from being hidden */
+    width:100%;
+    height:40px;
+    content:'';
+    position: absolute;
+    top:-40px;
+    left:0;
+}
+
+
+@-webkit-keyframes shinystat-analytics-fadeIn {
+    0% { 
+        opacity:0; 
+        transform: scale(0.6);
+    }
+
+    100% {
+        opacity:100%;
+        transform: scale(1);
+    }
+}
+
+@keyframes shinystat-analytics-fadeIn {
+    0% { opacity:0; }
+    100% { opacity:100%; }
+}
+
+#shinystat-analytics-form > .shinystat-analytics-panel,
+#shinystat-analytics-form table {
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px #aaa;
+}
+
+#shinystat-analytics-form th,
+#shinystat-analytics-form tr {
+    padding: 20px !important;
+}
+
+#shinystat-analytics-form td {
+    padding: 8px 20px !important;
+}
+
+div.shinystat-analytics-panel {
+    font-size: 14px;
+}
+
+a.shinystat-analytics-redirect {
+    position: absolute;
+    right: 40px;
+    margin-top: -30px;
+}
+
+.shinystat-analytics-checkmark {
+    font-size: 18px;
+    color: #1e8cbe;
+}
+
+#shinystat_analytics_account_name,
+#shinystat_analytics_account_type,
+#shinystat_analytics_conv_name {
+    width: 220px;
+    display: inline-flex;
+}
+
+#shinystat_analytics_advanced_options_collapsible {
+    float: left;
+    cursor: pointer;
+    padding: 0px 8px 4px;
+    font-size: 19px;
+    border-radius: 3px;
+    margin-top: 8px;
+}
+
+#shinystat_analytics_advanced_options_collapsible:hover {
+    background-color: #ddd;
+}
+#shinystat_analytics_advanced_options_collapsible:after {
+   content: '\00BB';
+}
+#shinystat_analytics_advanced_options_collapsible.active {
+   margin-top: 0px;
+}
+#shinystat_analytics_advanced_options_collapsible.active:after {
+   content: '\00AB';
+   color: blue;
+}
+#shinystat_analytics_advanced_options_content {
+   padding: 0 18px;
+   max-height: 0px;
+   overflow: hidden;
+   transition: max-height 0.2s ease-out;
+   background-color: #f1f1f1;
+}
+#shinystat_analytics_advanced_options_rowAdder {
+   cursor: pointer;
+}
+.shinystat_analytics_advanced_options_rowDelete {
+   color: red;
+   border: solid 1px red !important;
+   border-radius: 16px;
+   padding: 0px 6px;
+   margin: 0px 10px;
+   cursor: pointer;
+}
+.shinystat_analytics_advanced_options_rowDelete:hover {
+   background-color: #fcc;
+}
+.shinystat_analytics_advanced_options_inlineright {
+   display: inline-block;
+   margin: 0px 0px 0px 51px;
+}
+.shinystat_analytics_advanced_options_inlineleft {
+   display: inline-block;
+   margin: 0px -20px 0px 10px;
+}
+.shinystat_analytics_advanced_options_inlineleft label, 
+.shinystat_analytics_advanced_options_inlineright label {
+   min-width: 60px;
+}
+
